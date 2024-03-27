@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MOTOMAMI</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link
+          href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+          rel="stylesheet"
+        />
+</head>
+<body>
+    <header>
+          <a href="https://open.spotify.com/intl-es/album/6jbtHi5R0jMXoliU2OS0lo?si=pO1VGIs3QNmd1-2oovHpfg">Stream the album Motomami <3 </a>
+        </header>
+        <section id="hero">
+          <div id="progress"></div>
+          <div class="controls">
+            <button class="button-up" onclick="hero.scrollBy(0, -100)">
+              <i class="ri-arrow-up-circle-line"></i>
+            </button>
+            <button class="button-down" onclick="hero.scrollBy(0, 100)">
+              <i class="ri-arrow-down-circle-line"></i>
+            </button>
+          </div>
+          <figure>
+            <picture>
+              <img
+                src="imagenes/logo.webp"
+                alt="fashion store"
+              />
+            </picture>
+          </figure>
+          <figure>
+            <picture>
+              <img
+                src="imagenes/rosalia.webp"
+                alt="fashion store"
+              />
+            </picture>
+          </figure>
+          <figure>
+            <picture>
+              <img
+                src="imagenes/album.jpg"
+                alt="fashion store"
+              />
+            </picture>
+            <div class="music-player-container is-playing">
+
+                <div class="music-player">
+                    <div class="player-content-container">
+                        <h1 class="artist-name">Rosalía</h1>
+                        <h2 class="album-title">MOTOMAMI</h2>
+                        <h3 class="song-title">"SAOKO"</h3>
+                        <div class="music-player-controls">
+                            <div class="control-back"></div>
+                            <div class="control-play"></div>
+                            <div class="control-forwards"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="album">
+                    <div class="album-art"></div>
+                    <div class="vinyl"></div>
+                </div>
+            </div>
+          </figure>
+          
+        </section>
+
+    
+</body>
+<Script src="./background.js"></Script>
+</html>
